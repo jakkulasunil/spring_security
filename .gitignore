@@ -1,0 +1,136 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+############################################
+# Build output
+############################################
+/target/
+!/target/*.jar
+/build/
+out/
+
+############################################
+# Logs
+############################################
+*.log
+logs/
+
+############################################
+# OS files
+############################################
+.DS_Store
+Thumbs.db
+
+############################################
+# IntelliJ IDEA
+############################################
+.idea/
+*.iml
+*.iws
+*.ipr
+
+############################################
+# Eclipse / STS
+############################################
+.classpath
+.project
+.settings/
+.factorypath
+
+############################################
+# VS Code
+############################################
+.vscode/
+
+############################################
+# NetBeans
+############################################
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+
+############################################
+# Java
+############################################
+*.class
+
+############################################
+# Maven
+############################################
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+############################################
+# Gradle
+############################################
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+############################################
+# Spring Boot
+############################################
+application.properties
+application.yml
+application-*.yml
+
+############################################
+# Environment variables
+############################################
+.env
+.env.*
+
+############################################
+# Temporary files
+############################################
+tmp/
+*.tmp
+*.swp
+*.bak
+
+############################################
+# Test reports
+############################################
+/surefire-reports/
+/failsafe-reports/
+
+############################################
+# Node (if React/Angular is used)
+############################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
